@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shopee Clone</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="../themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="icon" href="./assets/img/happy.png" type="image/x-icon" />
 </head>
 <body>
     <!-- BLOCK ELEMENT MODIFIER -->
@@ -25,13 +27,13 @@
                     <li class="header__navbar-item header__navbar-item--separate">
                         Vào cửa hàng trên ứng dụng HoangBD
                         <div class="header__qr">
-                            <img src="./assets/img/qrcode.png" alt="QR code" class="header__qr-img">
+                            <img onerror="this.src='./assets/img/error_img.png'" src="./assets/img/qrcode.png" alt="QR code" class="header__qr-img">
                             <div class="header__qr-apps">
                                 <a href="" class="header__qr-link">
-                                    <img src="./assets/img/app_store.png" alt="App Store" class="header__qr-dowload-img">
+                                    <img onerror="this.src='./assets/img/error_img.png'" src="./assets/img/app_store.png" alt="App Store" class="header__qr-dowload-img">
                                 </a>
                                 <a href="" class="header__qr-link">
-                                    <img src="./assets/img/ggplay.png" alt="Google Play" class="header__qr-dowload-img">
+                                    <img onerror="this.src='./assets/img/error_img.png'" src="./assets/img/ggplay.png" alt="Google Play" class="header__qr-dowload-img">
                                 </a>
                             </div>
                         </div>
@@ -59,7 +61,7 @@
                             <ul class="header__notify-list">
                                 <li class="header__notify-item header__notify-item--viewed">
                                     <a href="" class="header__notify-link">
-                                        <img src="https://cf.shopee.vn/file/d3784b8b87a4b0ab4747e45727a49167_tn" alt="" class="header__notify-img">
+                                        <img onerror="this.src='./assets/img/error_img.png'" src="https://cf.shopee.vn/file/d3784b8b87a4b0ab4747e45727a49167_tn" alt="" class="header__notify-img">
                                         <div class="header__notify-info">
                                             <span class="header__notify-name">Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OF 70%</span>
                                             <span class="header__notify-descriotion">Giá chỉ còn 375.000 (giá gốc: 1.250.000 vnd)</span>
@@ -68,7 +70,7 @@
                                 </li>
                                 <li class="header__notify-item">
                                     <a href="" class="header__notify-link">
-                                        <img src="https://cf.shopee.vn/file/c2092d16572b3128d26a86693b53cc11_xhdpi" alt="" class="header__notify-img">
+                                        <img onerror="this.src='./assets/img/error_img.png'" src="https://cf.shopee.vn/file/c2092d16572b3128d26a86693b53cc11_xhdpi" alt="" class="header__notify-img">
                                         <div class="header__notify-info">
                                             <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm</span>
                                             <span class="header__notify-descriotion">HiddenTag là giải pháp xác thực hàng chính hãng bằng công nghệ tiên tiến nhất hiện nay</span>
@@ -77,7 +79,7 @@
                                 </li>
                                 <li class="header__notify-item">
                                     <a href="" class="header__notify-link">
-                                        <img src="https://cf.shopee.vn/file/ef1f336ecc6f97b790d5aae9916dcb72_tn" alt="" class="header__notify-img">
+                                        <img onerror="this.src='./assets/img/error_img.png'" src="https://cf.shopee.vn/file/ef1f336ecc6f97b790d5aae9916dcb72_tn" alt="" class="header__notify-img">
                                         <div class="header__notify-info">
                                             <span class="header__notify-name">Ohui chính thức rs mắt dòng son lì mới THE FIRST GENITURE LIPSTICK</span>
                                             <span class="header__notify-descriotion">Một lần môi căng mềm , quyến rũ với sắc màu nổi bật luôn là điều mà các quý cô ao ước</span>
@@ -98,7 +100,7 @@
                     <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng Kí</li>
                     <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li> -->
                     <li class="header__navbar-item header__navbar-user">
-                        <img src="https://cdn-01.haui.edu.vn/img/logo-45x45.png" alt="" class="header__navbar-user-avatar">
+                        <img onerror="this.src='./assets/img/error_img.png'" src="https://cdn-01.haui.edu.vn/img/logo-45x45.png" alt="" class="header__navbar-user-avatar">
                         <span class="header__navbar-user-name">HoangBD</span>
                         
                             <ul class="header__navbar-user-menu">
@@ -191,7 +193,7 @@
                     </div>
                     
                     <button class="header__search-btn">
-                        <i class="header__search-btn-icon ti-search"></i>
+                        <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
                 <!-- Cart product -->
@@ -205,7 +207,7 @@
                             <!-- No cart:  header__cart-list--no-cart -->
                             <!-- if any no-cart then display : none and opposite -->
                             <div class="header__cart-list--remove-no-cart">
-                                <img src="./assets/img/no_cart.png" alt="">
+                                <img onerror="this.src='./assets/img/error_img.png'" src="./assets/img/no_cart.png" alt="">
                                 <div class="">
                                     <span>Chưa có sản phẩm</span>
                                 </div>
@@ -216,7 +218,7 @@
                                 <ul class="header__cart-list--items">
                                     <!-- Cart item -->
                                     <li class="header__cart-item">
-                                        <img src="https://cf.shopee.vn/file/96a5c0f3ecefb25751ed5d7668cedee8_tn" alt="" class="header__cart-item--img">
+                                        <img onerror="this.src='./assets/img/error_img.png'" src="https://cf.shopee.vn/file/96a5c0f3ecefb25751ed5d7668cedee8_tn" alt="" class="header__cart-item--img">
                                         <div class="header__cart-item-info">
                                             <div class="header__cart-item-head">
                                                 <h5 class="header__cart-item-name">Bàn phím laptop gaming</h5>
@@ -235,7 +237,7 @@
                                         </div>
                                     </li>
                                     <li class="header__cart-item">
-                                        <img src="https://cf.shopee.vn/file/2139a06088cdd225d108c2315ecd2f45_tn" alt="" class="header__cart-item--img">
+                                        <img onerror="this.src='./assets/img/error_img.png'" src="https://cf.shopee.vn/file/2139a06088cdd225d108c2315ecd2f45_tn" alt="" class="header__cart-item--img">
                                         <div class="header__cart-item-info">
                                             <div class="header__cart-item-head">
                                                 <h5 class="header__cart-item-name">【Có sẵn】 Cuộn dây led 3m 5m RGB 16 triệu màu điều khiển bằng điện thoại, nháy theo nhạc, đèn led tiktok đổi màu</h5>
@@ -254,7 +256,7 @@
                                         </div>
                                     </li>
                                     <li class="header__cart-item">
-                                        <img src="https://cf.shopee.vn/file/7302705fc67965a9f6aaec79173a9f2a_tn" alt="" class="header__cart-item--img">
+                                        <img onerror="this.src='./assets/img/error_img.png'" src="https://cf.shopee.vn/file/7302705fc67965a9f6aaec79173a9f2a_tn" alt="" class="header__cart-item--img">
                                         <div class="header__cart-item-info">
                                             <div class="header__cart-item-head">
                                                 <h5 class="header__cart-item-name">Áo khoác bomber nam nữ unisex vải nỉ bông giữ nhiệt họa tiết trẻ trung BBN01</h5>
@@ -273,7 +275,7 @@
                                         </div>
                                     </li>
                                     <li class="header__cart-item">
-                                        <img src="https://cf.shopee.vn/file/ddfe13d381b2073b7a81709d70e9dd39_tn" alt="" class="header__cart-item--img">
+                                        <img onerror="this.src='./assets/img/error_img.png'" src="https://cf.shopee.vn/file/ddfe13d381b2073b7a81709d70e9dd39_tn" alt="" class="header__cart-item--img">
                                         <div class="header__cart-item-info">
                                             <div class="header__cart-item-head">
                                                 <h5 class="header__cart-item-name">Bộ Chuyển Đổi Chuột Và Bàn Phím + Chuột + Giá Đỡ Chơi Game PUPG, Cho Android iPhone iPad</h5>
@@ -479,10 +481,10 @@
                                 </span>
                                 <div class="home-filter__page-control">
                                     <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
-                                        <i class="home-filter__page-icon ti-angle-left"></i>
+                                        <i class="home-filter__page-icon fa-solid fa-angle-left"></i>
                                     </a>
                                     <a href="" class="home-filter__page-btn">
-                                        <i class="home-filter__page-icon ti-angle-right"></i>
+                                        <i class="home-filter__page-icon fa-solid fa-angle-right"></i>
                                     </a>
                                 </div>
                             </div>
@@ -888,7 +890,7 @@
                         <ul class="pagination home-product__pagination">
                             <li class="pagination-item">
                                 <a href="" class="pagination-item__link">
-                                    <i class="pagination-item__icon ti-angle-left"></i>
+                                    <i class="pagination-item__icon fa-solid fa-angle-left"></i>
                                 </a>
                             </li>
                 
@@ -914,7 +916,7 @@
                 
                             <li class="pagination-item">
                                 <a href="" class="pagination-item__link">
-                                    <i class="pagination-item__icon ti-angle-right"></i>
+                                    <i class="pagination-item__icon fa-solid fa-angle-right"></i>
                                 </a>
                             </li>
                         </ul>
@@ -994,23 +996,23 @@
                         <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
                         <div class="footer__content">
                             <div class="footer-qrcode">
-                                <img src="./assets/img/qrcode.png" alt="" class="footer-qrcode-img">
+                                <img onerror="this.src='./assets/img/error_img.png'" src="./assets/img/qrcode.png" alt="" class="footer-qrcode-img">
                             </div>
                             <div class="footer__content-list-store">
                                 <ul class="footer-list">
                                     <li class="footer-item">
                                         <a href="" class="footer-item__link">
-                                            <img src="./assets/img/app_store.png" alt="App Store" class="footer-item__link-img">
+                                            <img onerror="this.src='./assets/img/error_img.png'" src="./assets/img/app_store.png" alt="App Store" class="footer-item__link-img">
                                         </a>
                                     </li>
                                     <li class="footer-item">
                                         <a href="" class="footer-item__link">
-                                            <img src="./assets/img/ggplay.png" alt="Google Play" class="footer-item__link-img">
+                                            <img onerror="this.src='./assets/img/error_img.png'" src="./assets/img/ggplay.png" alt="Google Play" class="footer-item__link-img">
                                         </a>
                                     </li>
                                     <li class="footer-item">
                                         <a href="" class="footer-item__link">
-                                            <img src="./assets/img/app_gallery.png" alt="AppGallery" class="footer-item__link-img">
+                                            <img onerror="this.src='./assets/img/error_img.png'" src="./assets/img/app_gallery.png" alt="AppGallery" class="footer-item__link-img">
                                         </a>
                                     </li>
                                 </ul>
